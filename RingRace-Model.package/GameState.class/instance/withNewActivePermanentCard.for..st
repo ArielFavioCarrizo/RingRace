@@ -5,7 +5,7 @@ withNewActivePermanentCard: aCard for: aPlayer
 	newActivatedPermanentCards add: (CardActivation withCard: aCard for: aPlayer).
 	^ self class
 		withPlayerStates: playerStates
-		withCurrentTurnOf: playerInTurn
+		withCurrentTurn: currentTurn
 		withActivatedPermanentCards: newActivatedPermanentCards
 		withLastSquareEffect: lastSquareEffect 
 		withUndoLastEffectBlock: undoLastEffectBlock

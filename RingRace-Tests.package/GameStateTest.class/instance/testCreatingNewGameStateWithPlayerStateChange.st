@@ -10,7 +10,7 @@ testCreatingNewGameStateWithPlayerStateChange
 	self assert: (aGameState1 stateOf: claudio ) positionInGame squareNumber equals: 1.
 	self assert: (aGameState1 stateOf: claudio ) positionInGame laps equals: 0.
 	
-	self assert: (aGameState1 playerInTurn ) equals: nico.
+	self assert: (aGameState1 currentTurn player ) equals: nico.
 	
 	aGameState2 := aGameState1 withNewPlayerState: ( PlayerState withPositionInGame: ( PositionInGame  positionedInSquare: 5 withLaps: 3 ) ) of: nico.
 	
@@ -19,4 +19,4 @@ testCreatingNewGameStateWithPlayerStateChange
 	self assert: (aGameState2 stateOf: claudio ) positionInGame squareNumber equals: 1.
 	self assert: (aGameState2 stateOf: claudio ) positionInGame laps equals: 0.
 	
-	self assert: (aGameState2 playerInTurn ) equals: nico.
+	self assert: (aGameState2 currentTurn player ) equals: nico.

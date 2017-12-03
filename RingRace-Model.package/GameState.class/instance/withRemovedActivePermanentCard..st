@@ -2,7 +2,7 @@ action
 withRemovedActivePermanentCard: aCard
 	^ self class
 		withPlayerStates: playerStates
-		withCurrentTurnOf: playerInTurn
+		withCurrentTurn: currentTurn
 		withActivatedPermanentCards: (activatedPermanentCards reject: [ :eachCardActivation | eachCardActivation card == aCard ])
 		withLastSquareEffect: lastSquareEffect
 		withUndoLastEffectBlock: undoLastEffectBlock

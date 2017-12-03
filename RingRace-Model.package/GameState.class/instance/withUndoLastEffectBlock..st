@@ -2,7 +2,7 @@ action
 withUndoLastEffectBlock: aUndoLastEffectBlock
 	^ self class
 		withPlayerStates: playerStates
-		withCurrentTurnOf: playerInTurn
+		withCurrentTurn: currentTurn
 		withActivatedPermanentCards: activatedPermanentCards
 		withLastSquareEffect: lastSquareEffect 
 		withUndoLastEffectBlock: aUndoLastEffectBlock

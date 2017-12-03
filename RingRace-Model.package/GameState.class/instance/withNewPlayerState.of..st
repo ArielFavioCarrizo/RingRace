@@ -5,7 +5,7 @@ withNewPlayerState: aPlayerState of: aPlayer
 	newStatesPerPlayer at: aPlayer put: aPlayerState.
 	^ self class
 		withPlayerStates: newStatesPerPlayer
-		withCurrentTurnOf: playerInTurn
+		withCurrentTurn: currentTurn
 		withActivatedPermanentCards: activatedPermanentCards
 		withLastSquareEffect: lastSquareEffect 
 		withUndoLastEffectBlock: undoLastEffectBlock

@@ -1,8 +1,8 @@
 accessing
-withNewTurnOf: aPlayer
+withNewTurn: aTurn
 	^ self class
 		withPlayerStates: playerStates
-		withCurrentTurnOf: aPlayer
+		withCurrentTurn: aTurn
 		withActivatedPermanentCards: activatedPermanentCards
 		withLastSquareEffect: lastSquareEffect
 		withUndoLastEffectBlock: undoLastEffectBlock

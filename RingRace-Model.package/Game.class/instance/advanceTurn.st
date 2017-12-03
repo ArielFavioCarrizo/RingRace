@@ -6,4 +6,4 @@ advanceTurn
 	gameStateContext
 		newState:
 			(gameStateContext currentState
-				withNewTurnOf: (players at: currentPlayerIndex))
+				withNewTurn: ( Turn of: (players at: currentPlayerIndex)) )

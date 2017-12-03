@@ -2,8 +2,8 @@
 	"instance" : {
 		"ifTurnOf:andGameNotEndedDo:" : "ArielFavioCarrizo 10/10/2017 17:07",
 		"activate:for:" : "fjf 11/14/2017 15:55",
-		"giveTurnTo:" : "ArielFavioCarrizo 11/13/2017 19:20",
-		"advanceTurn" : "fjf 11/14/2017 18:25",
+		"giveTurnTo:" : "ArielFavioCarrizo 12/2/2017 23:20",
+		"advanceTurn" : "ArielFavioCarrizo 12/3/2017 12:10",
 		"initializeWithPlayers:andBoard:withDices:winningWhen:" : "ArielFavioCarrizo 11/13/2017 19:26",
 		"players" : "ArielFavioCarrizo 9/18/2017 19:24",
 		"board" : "ArielFavioCarrizo 11/13/2017 19:15",

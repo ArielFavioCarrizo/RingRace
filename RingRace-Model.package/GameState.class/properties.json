@@ -7,7 +7,7 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"playerStates",
-		"playerInTurn",
+		"currentTurn",
 		"activatedPermanentCards",
 		"undoLastEffectBlock",
 		"lastSquareEffect"

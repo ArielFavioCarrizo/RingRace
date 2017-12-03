@@ -1,7 +1,11 @@
 action
 giveTurnTo: aPlayer
+	| playerTurn |
 	self
 		ifTurnOf: aPlayer
 		andGameNotEndedDo: [ 
-			aPlayer play: (Turn of: gameStateContext for: aPlayer withDices: dices).
+			playerTurn := Turn of: aPlayer.
+			
+		   playerTurn giveIn: gameStateContext withDices: dices.
+			
 			self advanceTurn ]

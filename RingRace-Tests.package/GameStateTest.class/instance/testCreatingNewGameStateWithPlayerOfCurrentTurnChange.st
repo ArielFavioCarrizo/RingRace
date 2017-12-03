@@ -1,6 +1,6 @@
 tests
 testCreatingNewGameStateWithPlayerOfCurrentTurnChange
-	|aGameState1 aGameState2 nico claudio |
+	|aGameState1 aGameState2 nico claudio turnOfClaudio |
 	nico := Player named: 'Nico'.
 	claudio := Player named: 'claudio'.
 	aGameState1 := GameState withPlayers: { nico. claudio }.
@@ -10,13 +10,14 @@ testCreatingNewGameStateWithPlayerOfCurrentTurnChange
 	self assert: (aGameState1 stateOf: claudio ) positionInGame squareNumber equals: 1.
 	self assert: (aGameState1 stateOf: claudio ) positionInGame laps equals: 0.
 	
-	self assert: (aGameState1 playerInTurn ) equals: nico.
+	self assert: (aGameState1 currentTurn player ) equals: nico.
 	
-	aGameState2 := aGameState1 withNewTurnOf: claudio.
+	turnOfClaudio := (Turn of: claudio).
+	aGameState2 := aGameState1 withNewTurn: turnOfClaudio.
 	
 	self assert: (aGameState2 stateOf: nico ) positionInGame squareNumber equals: 1.
 	self assert: (aGameState2 stateOf: nico ) positionInGame laps equals: 0.
 	self assert: (aGameState2 stateOf: claudio ) positionInGame squareNumber equals: 1.
 	self assert: (aGameState2 stateOf: claudio ) positionInGame laps equals: 0.
 	
-	self assert: (aGameState2 playerInTurn ) equals: claudio.
+	self assert: (aGameState2 currentTurn ) equals: turnOfClaudio.

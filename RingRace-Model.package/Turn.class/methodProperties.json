@@ -1,11 +1,13 @@
 {
 	"instance" : {
-		"applyActivatedCards" : "fjf 11/14/2017 22:13",
-		"initializeOf:for:withDices:" : "ArielFavioCarrizo 11/13/2017 18:49",
-		"throwDice" : "fjf 11/14/2017 22:12",
-		"putLastSquareEffect:" : "fjf 11/14/2017 22:11"
+		"initializeOf:" : "ArielFavioCarrizo 12/2/2017 23:08",
+		"throwDices:in:" : "ArielFavioCarrizo 12/2/2017 23:08",
+		"applyActivatedCardsIn:" : "ArielFavioCarrizo 12/2/2017 23:09",
+		"player" : "ArielFavioCarrizo 12/3/2017 12:11",
+		"giveIn:withDices:" : "ArielFavioCarrizo 12/2/2017 23:21",
+		"putLastSquareEffect:in:" : "ArielFavioCarrizo 12/2/2017 23:05"
 	},
 	"class" : {
-		"of:for:withDices:" : "ArielFavioCarrizo 11/13/2017 18:48"
+		"of:" : "ArielFavioCarrizo 12/2/2017 23:07"
 	}
 }

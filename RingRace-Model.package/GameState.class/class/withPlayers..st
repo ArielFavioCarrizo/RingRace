@@ -8,7 +8,7 @@ withPlayers: somePlayers
 			[ :eachPlayer | playerStates at: eachPlayer put: (PlayerState withPositionInGame: (PositionInGame positionedInSquare: 1 withLaps: 0)) ].
 	^ self new
 		initializeWithPlayerStates: playerStates
-		withCurrentTurnOf: somePlayers first
+		withCurrentTurn: ( Turn of: (somePlayers first) )
 		withActivatedPermanentCards: activatedPermanentCards
 		withLastSquareEffect: NoSquareEffect new
 		withUndoLastEffectBlock: [  ]
