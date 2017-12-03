@@ -1,6 +1,6 @@
 # RingRace
 RingRace - Ing. Soft. II
 
-[![Build Status](https://travis-ci.org/franciscojaimesfreyre/RingRace.svg?branch=master)](https://travis-ci.org/franciscojaimesfreyre/RingRace)
+[![Build Status](https://travis-ci.org/ArielFavioCarrizo/RingRace.svg?branch=ReleaseFinalAriel)](https://travis-ci.org/ArielFavioCarrizo/RingRace)
 
-[![Coverage Status](https://coveralls.io/repos/github/franciscojaimesfreyre/RingRace/badge.svg?branch=master)](https://coveralls.io/github/franciscojaimesfreyre/RingRace?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/ArielFavioCarrizo/RingRace/badge.svg?branch=ReleaseFinalAriel)](https://coveralls.io/github/ArielFavioCarrizo/RingRace?branch=ReleaseFinalAriel)
