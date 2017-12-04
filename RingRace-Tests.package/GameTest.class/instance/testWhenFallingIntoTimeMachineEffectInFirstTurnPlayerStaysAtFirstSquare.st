@@ -8,7 +8,7 @@ testWhenFallingIntoTimeMachineEffectInFirstTurnPlayerStaysAtFirstSquare
 			{nico.
 			santi}
 		withBoard:
-			(Board
+			(BoardState
 				withSquareEffects:
 					{NoSquareEffect new.
 					TimeMachineSquareEffect new.
@@ -19,7 +19,7 @@ testWhenFallingIntoTimeMachineEffectInFirstTurnPlayerStaysAtFirstSquare
 	self assert: (game stateOf: nico) positionInGame laps == 0.
 	self assert: (game stateOf: santi) positionInGame squareNumber == 1.
 	self assert: (game stateOf: santi) positionInGame laps == 0.
-	game giveTurnTo: nico.
+	game throwDicesFor: nico.
 	self assert: (game stateOf: nico) positionInGame squareNumber == 1.
 	self assert: (game stateOf: nico) positionInGame laps == 0.
 	self assert: (game stateOf: santi) positionInGame squareNumber == 1.

@@ -8,7 +8,7 @@ testWhenPlayingAGameWithNoEffectsPlayerCanWin
 	game := Game
 		withPlayers: players
 		withBoard:
-			(Board
+			(BoardState
 				withSquareEffects: (OrderedCollection new: 10 withAll: NoSquareEffect new))
 		withDices:
 			{(Dice withNumbersFrom: (ReadStream on: #(3 2 5 1 2 3 5))).
@@ -18,37 +18,37 @@ testWhenPlayingAGameWithNoEffectsPlayerCanWin
 	self assert: (game stateOf: player1) positionInGame laps equals: 0.
 	self assert: (game stateOf: player2) positionInGame squareNumber == 1.
 	self assert: (game stateOf: player2) positionInGame laps equals: 0.
-	game giveTurnTo: player1.
+	game throwDicesFor: player1.
 	self assert: (game stateOf: player1) positionInGame squareNumber == 6.
 	self assert: (game stateOf: player1) positionInGame laps equals: 0.
 	self assert: (game stateOf: player2) positionInGame squareNumber == 1.
 	self assert: (game stateOf: player2) positionInGame laps equals: 0.
-	game giveTurnTo: player2.
+	game throwDicesFor: player2.
 	self assert: (game stateOf: player1) positionInGame squareNumber == 6.
 	self assert: (game stateOf: player1) positionInGame laps equals: 0.
 	self assert: (game stateOf: player2) positionInGame squareNumber == 4.
 	self assert: (game stateOf: player2) positionInGame laps equals: 0.
-	game giveTurnTo: player1.
+	game throwDicesFor: player1.
 	self assert: (game stateOf: player1) positionInGame squareNumber == 4.
 	self assert: (game stateOf: player1) positionInGame laps equals: 1.
 	self assert: (game stateOf: player2) positionInGame squareNumber == 4.
 	self assert: (game stateOf: player2) positionInGame laps equals: 0.
-	game giveTurnTo: player2.
+	game throwDicesFor: player2.
 	self assert: (game stateOf: player1) positionInGame squareNumber  == 4.
 	self assert: (game stateOf: player1) positionInGame laps equals: 1.
 	self assert: (game stateOf: player2) positionInGame squareNumber == 9.
 	self assert: (game stateOf: player2) positionInGame laps equals: 0.
-	game giveTurnTo: player1.
+	game throwDicesFor: player1.
 	self assert: (game stateOf: player1) positionInGame squareNumber == 9.
 	self assert: (game stateOf: player1) positionInGame laps equals: 1.
 	self assert: (game stateOf: player2) positionInGame squareNumber == 9.
 	self assert: (game stateOf: player2) positionInGame laps equals: 0.
-	game giveTurnTo: player2.
+	game throwDicesFor: player2.
 	self assert: (game stateOf: player1) positionInGame squareNumber == 9.
 	self assert: (game stateOf: player1) positionInGame laps equals: 1.
 	self assert: (game stateOf: player2) positionInGame squareNumber == 6.
 	self assert: (game stateOf: player2) positionInGame laps equals: 1.
-	game giveTurnTo: player1.
+	game throwDicesFor: player1.
 	self assert: (game stateOf: player1) positionInGame laps equals: 2.
 	self assert: (game stateOf: player2) positionInGame squareNumber == 6.
 	self assert: (game stateOf: player2) positionInGame laps equals: 1.

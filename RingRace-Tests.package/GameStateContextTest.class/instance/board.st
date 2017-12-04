@@ -1,4 +1,4 @@
 tests
 board
-	^Board
+	^BoardState
 		withSquareEffects: (OrderedCollection new: 30 withAll: NoSquareEffect new).

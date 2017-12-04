@@ -1,7 +1,10 @@
 initialization
 initializeWithPlayers: somePlayers andBoard: aBoard withDices: someDices winningWhen: aWinningCondition
+	|game|
+	game := self.
 	players := OrderedCollection withAll: somePlayers.
-	gameStateContext := GameStateContext withPlayers: players in: aBoard andWhenStateIsUpdatedDo: [ players do: [ :eachPlayer | winnerValidator
+	gameStateContext := GameStateContext withPlayers: players in: aBoard andWhenStateIsUpdatedDo: [ players do: [ :eachPlayer |
+				winnerValidator
 				check: (self stateOf: eachPlayer )
 				ifWinnerDo: [ hasEnded := true.
 					winner := eachPlayer ] ] ].

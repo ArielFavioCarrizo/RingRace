@@ -2,7 +2,7 @@ tests
 testWhenNoMovementAreAppliedPositionRemainsTheSame
 	|board movement oldPosition|
 	
-	board := Board
+	board := BoardState
 				withSquareEffects: (OrderedCollection new: 30 withAll: NoSquareEffect new).
 	movement := NoMovement new.
 	oldPosition := PositionInGame positionedInSquare: 1 withLaps: 1.

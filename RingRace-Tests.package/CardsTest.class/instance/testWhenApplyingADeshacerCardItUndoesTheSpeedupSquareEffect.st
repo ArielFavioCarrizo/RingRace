@@ -5,7 +5,7 @@ testWhenApplyingADeshacerCardItUndoesTheSpeedupSquareEffect
 	game := Game
 		withPlayers: {nico}
 		withBoard:
-			(Board
+			(BoardState
 				withSquareEffects:
 					{NoSquareEffect new.
 					SpeedUpSquareEffect new.
@@ -20,7 +20,7 @@ testWhenApplyingADeshacerCardItUndoesTheSpeedupSquareEffect
 	nico give: card.
 	self assert: (game stateOf: nico) positionInGame squareNumber equals: 1.
 	self assert: (game stateOf: nico) positionInGame laps equals: 0.
-	game giveTurnTo: nico.
+	game throwDicesFor: nico.
 	self assert: (game stateOf: nico) positionInGame squareNumber equals: 6.
 	self assert: (game stateOf: nico) positionInGame laps equals: 0.
 	nico activate: card in: game.

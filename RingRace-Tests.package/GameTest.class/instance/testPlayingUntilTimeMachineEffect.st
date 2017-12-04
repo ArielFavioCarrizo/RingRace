@@ -8,7 +8,7 @@ testPlayingUntilTimeMachineEffect
 	game := Game
 		withPlayers: players
 		withBoard:
-			(Board
+			(BoardState
 				withSquareEffects:
 					{NoSquareEffect new.
 					NoSquareEffect new.
@@ -21,12 +21,12 @@ testPlayingUntilTimeMachineEffect
 		winningWhen: (ReachedNumberOfLaps reaching: 2).
 	self assert: (game stateOf: nico) positionInGame squareNumber == 1.
 	self assert: (game stateOf: santi) positionInGame squareNumber == 1.
-	game giveTurnTo: nico.
+	game throwDicesFor: nico.
 	self assert: (game stateOf: nico) positionInGame squareNumber == 3.
 	self assert: (game stateOf: santi) positionInGame squareNumber == 1.
-	game giveTurnTo: santi.
+	game throwDicesFor: santi.
 	self assert: (game stateOf: nico) positionInGame squareNumber == 3.
 	self assert: (game stateOf: santi) positionInGame squareNumber == 2.
-	game giveTurnTo: nico.
+	game throwDicesFor: nico.
 	self assert: (game stateOf: nico) positionInGame squareNumber == 3.
 	self assert: (game stateOf: santi) positionInGame squareNumber == 2

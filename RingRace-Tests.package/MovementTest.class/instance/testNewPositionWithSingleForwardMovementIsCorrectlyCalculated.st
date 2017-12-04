@@ -1,7 +1,7 @@
 tests
 testNewPositionWithSingleForwardMovementIsCorrectlyCalculated
 	| board movement oldPosition firstChangedPosition secondChangedPosition |
-	board := Board withSquareEffects: (OrderedCollection new: 30 withAll: NoSquareEffect new).
+	board := BoardState withSquareEffects: (OrderedCollection new: 30 withAll: NoSquareEffect new).
 	movement := SingleForwardMovement new.
 	oldPosition := PositionInGame positionedInSquare: 1 withLaps: 1.
 	firstChangedPosition := movement newPositionInGameFrom: oldPosition withBoard: board.

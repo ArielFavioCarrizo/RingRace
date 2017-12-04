@@ -8,7 +8,7 @@ testPlayingUntilSpeedUpEffect
 	game := Game
 		withPlayers: players
 		withBoard:
-			(Board
+			(BoardState
 				withSquareEffects:
 					{NoSquareEffect new.
 					NoSquareEffect new.
@@ -23,12 +23,12 @@ testPlayingUntilSpeedUpEffect
 		winningWhen: (ReachedNumberOfLaps reaching: 2).
 	self assert: (game stateOf: player1) positionInGame squareNumber == 1.
 	self assert: (game stateOf: player2) positionInGame squareNumber == 1.
-	game giveTurnTo: player1.
+	game throwDicesFor: player1.
 	self assert: (game stateOf: player1) positionInGame squareNumber == 2.
 	self assert: (game stateOf: player2) positionInGame squareNumber == 1.
-	game giveTurnTo: player2.
+	game throwDicesFor: player2.
 	self assert: (game stateOf: player1) positionInGame squareNumber == 2.
 	self assert: (game stateOf: player2) positionInGame squareNumber == 2.
-	game giveTurnTo: player1.
+	game throwDicesFor: player1.
 	self assert: (game stateOf: player1) positionInGame squareNumber == 8.
 	self assert: (game stateOf: player2) positionInGame squareNumber == 2

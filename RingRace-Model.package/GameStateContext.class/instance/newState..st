@@ -1,4 +1,4 @@
 action
 newState: aGameState 
 	gameStates addLast: aGameState.
-	notifyStateUpdateBlock value.
+	notifyStateUpdateBlock on: GameException do: [ gameStates removeLast ]

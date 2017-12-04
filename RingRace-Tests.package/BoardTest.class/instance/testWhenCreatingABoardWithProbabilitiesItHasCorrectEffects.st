@@ -6,7 +6,7 @@ testWhenCreatingABoardWithProbabilitiesItHasCorrectEffects
 	speedUp := SpeedUpSquareEffect new.
 	squareEffectsWithProbability := EffectsProbabilityConfigurator withEffects: { atomicBomb. wormHole. speedUp. }	eachWithProbability: { 25. 25. 50. }.
 	
-	board := Board withRandomSource: (ReadStream on: #(0.01 0.01 0.01 0.30 0.30 0.30 0.90 0.90 0.90)) andSquareEffectsWithProbability: squareEffectsWithProbability  andLength: 9.
+	board := BoardState withRandomSource: (ReadStream on: #(0.01 0.01 0.01 0.30 0.30 0.30 0.90 0.90 0.90)) andSquareEffectsWithProbability: squareEffectsWithProbability  andLength: 9.
 	
 	effectsShouldBeInBoard := {	atomicBomb.
 										atomicBomb.

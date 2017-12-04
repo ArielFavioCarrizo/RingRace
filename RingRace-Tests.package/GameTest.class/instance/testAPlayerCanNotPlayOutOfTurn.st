@@ -8,9 +8,9 @@ testAPlayerCanNotPlayOutOfTurn
 			{nico.
 			santi}
 		withBoard:
-			(Board
+			(BoardState
 				withSquareEffects: (OrderedCollection new: 10 withAll: NoSquareEffect new))
 		withDices: {(Dice withNumbersFrom: (ReadStream on: #(3 2 5 1 2 3 5)))}
 		winningWhen: (ReachedNumberOfLaps reaching: 2).
-	game giveTurnTo: nico.
-	self should: [ game giveTurnTo: nico ] raise: GameException
+	game throwDicesFor: nico.
+	self should: [ game throwDicesFor: nico ] raise: GameException

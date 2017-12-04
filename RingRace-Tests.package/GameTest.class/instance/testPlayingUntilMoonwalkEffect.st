@@ -8,7 +8,7 @@ testPlayingUntilMoonwalkEffect
 			{nico.
 			santi}
 		withBoard:
-			(Board
+			(BoardState
 				withSquareEffects:
 					{NoSquareEffect new.
 					NoSquareEffect new.
@@ -19,13 +19,13 @@ testPlayingUntilMoonwalkEffect
 		winningWhen: (ReachedNumberOfLaps reaching: 2).
 	self assert: (game stateOf: nico) positionInGame squareNumber == 1.
 	self assert: (game stateOf: santi) positionInGame squareNumber == 1.
-	game giveTurnTo: nico.
+	game throwDicesFor: nico.
 	self assert: (game stateOf: nico) positionInGame squareNumber == 2.
 	self assert: (game stateOf: santi) positionInGame squareNumber == 1.
-	game giveTurnTo: santi.
+	game throwDicesFor: santi.
 	self assert: (game stateOf: nico) positionInGame squareNumber == 2.
 	self assert: (game stateOf: santi) positionInGame squareNumber == 3.
-	game giveTurnTo: nico.
+	game throwDicesFor: nico.
 	"Nico falls in position 4 which has a MoonwalkEffect, so Santi moves back 2 squares as all the other players if there were any"
 	self assert: (game stateOf: nico) positionInGame squareNumber == 4.
 	self assert: (game stateOf: santi) positionInGame squareNumber == 1

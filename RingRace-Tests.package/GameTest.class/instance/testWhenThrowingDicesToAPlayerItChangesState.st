@@ -1,21 +1,21 @@
 tests
-testWhenGivingTurnToAPlayerItChangesState
+testWhenThrowingDicesToAPlayerItChangesState
 	| gameStateContext nico turn dices |
 	nico := Player named: 'Nico'.
 	dices := {(Dice withNumbersFrom: (ReadStream on: #(1 2 3 4)))}.
 	gameStateContext := GameStateContext 
 		withPlayers: {nico}
 		in:
-			(Board
+			(BoardState
 				withSquareEffects: (OrderedCollection new: 30 withAll: NoSquareEffect new))
 		andWhenStateIsUpdatedDo: [].
 	self assert: (gameStateContext currentState stateOf: nico) positionInGame squareNumber equals: 1.
 	turn := Turn of: nico.
-	turn giveIn: gameStateContext withDices: dices.
+	turn throwDices: dices in: gameStateContext.
 	self assert: (gameStateContext currentState stateOf: nico) positionInGame squareNumber equals: 2.
-	turn giveIn: gameStateContext withDices: dices.
+	turn throwDices: dices in: gameStateContext.
 	self assert: (gameStateContext currentState stateOf: nico) positionInGame squareNumber equals: 4.
-	turn giveIn: gameStateContext withDices: dices.
+	turn throwDices: dices in: gameStateContext.
 	self assert: (gameStateContext currentState stateOf: nico) positionInGame squareNumber equals: 7.
-	turn giveIn: gameStateContext withDices: dices.
+	turn throwDices: dices in: gameStateContext.
 	self assert: (gameStateContext currentState stateOf: nico) positionInGame squareNumber equals: 11

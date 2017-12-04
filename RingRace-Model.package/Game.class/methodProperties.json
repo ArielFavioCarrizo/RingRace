@@ -1,14 +1,15 @@
 {
 	"instance" : {
-		"ifTurnOf:andGameNotEndedDo:" : "ArielFavioCarrizo 10/10/2017 17:07",
+		"initializeWithPlayers:andBoard:withDices:winningWhen:" : "ArielFavioCarrizo 12/3/2017 15:43",
 		"activate:for:" : "fjf 11/14/2017 15:55",
-		"giveTurnTo:" : "ArielFavioCarrizo 12/2/2017 23:20",
-		"advanceTurn" : "ArielFavioCarrizo 12/3/2017 12:10",
-		"initializeWithPlayers:andBoard:withDices:winningWhen:" : "ArielFavioCarrizo 11/13/2017 19:26",
-		"players" : "ArielFavioCarrizo 9/18/2017 19:24",
-		"board" : "ArielFavioCarrizo 11/13/2017 19:15",
 		"stateOf:" : "ArielFavioCarrizo 11/13/2017 19:21",
-		"winner" : "ArielFavioCarrizo 10/10/2017 16:50"
+		"winner" : "ArielFavioCarrizo 10/10/2017 16:50",
+		"advanceTurn" : "ArielFavioCarrizo 12/3/2017 12:10",
+		"ifGameNotEndedDo:" : "ArielFavioCarrizo 12/3/2017 15:36",
+		"throwDicesFor:" : "ArielFavioCarrizo 12/3/2017 15:08",
+		"players" : "ArielFavioCarrizo 9/18/2017 19:24",
+		"ifTurnOf:andGameNotEndedDo:" : "ArielFavioCarrizo 12/3/2017 15:24",
+		"board" : "ArielFavioCarrizo 11/13/2017 19:15"
 	},
 	"class" : {
 		"withPlayers:withBoard:withDices:winningWhen:" : "fjf 11/1/2017 21:50"

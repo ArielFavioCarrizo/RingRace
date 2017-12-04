@@ -1,17 +1,17 @@
 {
 	"instance" : {
-		"testPlayingUntilAtomicBombEffect" : "fjf 11/14/2017 20:50",
-		"testPlayingUntilTimeMachineEffect" : "fjf 11/14/2017 20:50",
-		"testPlayingUntilSpeedUpEffect" : "fjf 11/14/2017 20:50",
-		"testGameCreationWithPlayersAndBoard" : "fjf 11/1/2017 21:48",
-		"testWhenFallingIntoMoonwalkEffectInFirstTurnPlayersGetNegativeLaps" : "fjf 11/14/2017 20:50",
-		"testWhenGivingTurnToAPlayerItChangesState" : "ArielFavioCarrizo 12/2/2017 23:20",
-		"testWhenPlayingAGameWithNoEffectsPlayerCanWin" : "fjf 11/14/2017 20:50",
-		"testWhenFallingIntoTimeMachineEffectInFirstTurnPlayerStaysAtFirstSquare" : "fjf 11/14/2017 20:50",
-		"testPlayingWithSquareEffectsUntilWinner" : "fjf 11/14/2017 20:50",
-		"testPlayingUntilWormHoleEffect" : "fjf 11/14/2017 20:50",
-		"testAPlayerCanNotPlayOutOfTurn" : "fjf 11/1/2017 21:48",
-		"testPlayingUntilMoonwalkEffect" : "fjf 11/14/2017 20:50"
+		"testPlayingUntilAtomicBombEffect" : "ArielFavioCarrizo 12/3/2017 21:19",
+		"testWhenThrowingDicesToAPlayerItChangesState" : "ArielFavioCarrizo 12/3/2017 21:19",
+		"testPlayingUntilTimeMachineEffect" : "ArielFavioCarrizo 12/3/2017 21:19",
+		"testPlayingUntilSpeedUpEffect" : "ArielFavioCarrizo 12/3/2017 21:19",
+		"testGameCreationWithPlayersAndBoard" : "ArielFavioCarrizo 12/3/2017 21:19",
+		"testWhenFallingIntoMoonwalkEffectInFirstTurnPlayersGetNegativeLaps" : "ArielFavioCarrizo 12/3/2017 21:19",
+		"testWhenPlayingAGameWithNoEffectsPlayerCanWin" : "ArielFavioCarrizo 12/3/2017 21:19",
+		"testWhenFallingIntoTimeMachineEffectInFirstTurnPlayerStaysAtFirstSquare" : "ArielFavioCarrizo 12/3/2017 21:19",
+		"testPlayingWithSquareEffectsUntilWinner" : "ArielFavioCarrizo 12/3/2017 21:19",
+		"testPlayingUntilWormHoleEffect" : "ArielFavioCarrizo 12/3/2017 21:19",
+		"testAPlayerCanNotPlayOutOfTurn" : "ArielFavioCarrizo 12/3/2017 21:19",
+		"testPlayingUntilMoonwalkEffect" : "ArielFavioCarrizo 12/3/2017 21:19"
 	},
 	"class" : { }
 }

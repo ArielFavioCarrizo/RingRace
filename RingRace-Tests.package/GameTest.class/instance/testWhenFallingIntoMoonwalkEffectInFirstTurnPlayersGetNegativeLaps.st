@@ -8,7 +8,7 @@ testWhenFallingIntoMoonwalkEffectInFirstTurnPlayersGetNegativeLaps
 			{nico.
 			santi}
 		withBoard:
-			(Board
+			(BoardState
 				withSquareEffects:
 					{NoSquareEffect new.
 					(MoonwalkSquareEffect newWithSquaresToMove: 2).
@@ -17,7 +17,7 @@ testWhenFallingIntoMoonwalkEffectInFirstTurnPlayersGetNegativeLaps
 		winningWhen: (ReachedNumberOfLaps reaching: 2).
 	self assert: (game stateOf: nico) positionInGame squareNumber == 1.
 	self assert: (game stateOf: santi) positionInGame squareNumber == 1.
-	game giveTurnTo: nico.
+	game throwDicesFor: nico.
 	self assert: (game stateOf: nico) positionInGame squareNumber == 2.
 	self assert: (game stateOf: nico) positionInGame laps == 0.
 	self assert: (game stateOf: santi) positionInGame squareNumber == 2.

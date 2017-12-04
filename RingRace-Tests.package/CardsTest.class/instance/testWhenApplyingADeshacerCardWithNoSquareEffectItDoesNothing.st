@@ -5,7 +5,7 @@ testWhenApplyingADeshacerCardWithNoSquareEffectItDoesNothing
 	game := Game
 		withPlayers: {nico}
 		withBoard:
-			(Board
+			(BoardState
 				withSquareEffects:
 					{NoSquareEffect new.
 					SpeedUpSquareEffect new.
@@ -20,14 +20,14 @@ testWhenApplyingADeshacerCardWithNoSquareEffectItDoesNothing
 	nico give: deshacerCard.
 	self assert: (game stateOf: nico) positionInGame squareNumber equals: 1.
 	self assert: (game stateOf: nico) positionInGame laps equals: 0.
-	game giveTurnTo: nico.
+	game throwDicesFor: nico.
 	self assert: (game stateOf: nico) positionInGame squareNumber equals: 6.
 	self assert: (game stateOf: nico) positionInGame laps equals: 0.
 	nico activate: deshacerCard in: game.
 	self assert: (game stateOf: nico) positionInGame squareNumber equals: 2.
 	self assert: (game stateOf: nico) positionInGame laps equals: 0.
 	nico give: deshacerCard.
-	game giveTurnTo: nico.
+	game throwDicesFor: nico.
 	self assert: (game stateOf: nico) positionInGame squareNumber equals: 3.
 	self assert: (game stateOf: nico) positionInGame laps equals: 0.
 	nico activate: deshacerCard in: game.

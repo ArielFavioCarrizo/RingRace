@@ -1,3 +1,3 @@
-as yet unclassified
+action
 activatingIn: aGameStateContext for: aPlayer
 	self subclassResponsibility 
