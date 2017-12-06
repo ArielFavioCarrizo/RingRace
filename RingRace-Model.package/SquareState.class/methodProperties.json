@@ -1,9 +1,11 @@
 {
 	"instance" : {
-		"initializeWithEffect:" : "fjf 10/31/2017 18:46",
-		"effect" : "ArielFavioCarrizo 9/27/2017 20:01"
+		"effects" : "ArielFavioCarrizo 12/5/2017 20:45",
+		"initializeWithEffects:" : "ArielFavioCarrizo 12/5/2017 21:12",
+		"compositeEffect" : "ArielFavioCarrizo 12/5/2017 21:15"
 	},
 	"class" : {
-		"withEffect:" : "fjf 10/31/2017 19:39"
+		"withEffects:" : "ArielFavioCarrizo 12/5/2017 20:43",
+		"withEffect:" : "ArielFavioCarrizo 12/5/2017 20:44"
 	}
 }

@@ -3,8 +3,8 @@ throwDices: dices in: aGameStateContext
 	| numberOfMovements effect |
 	numberOfMovements := dices sumNumbers: [ :eachDice | eachDice throw ].
 	(MovementInGame advancingWithSquares: numberOfMovements) move: player in: aGameStateContext.
-	effect := (aGameStateContext board squareAt: (aGameStateContext currentState stateOf: player) positionInGame squareNumber) effect.
-	effect
+	effect := ( ( aGameStateContext currentState boardState ) squareAt: (aGameStateContext currentState stateOf: player) positionInGame squareNumber) compositeEffect.
+	effect 
 		applyTo: player
 		in: aGameStateContext.
 	self putLastSquareEffect: effect in: aGameStateContext.

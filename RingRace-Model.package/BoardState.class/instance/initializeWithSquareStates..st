@@ -1,3 +1,3 @@
 instance initialization
 initializeWithSquareStates: someSquareStates
-	squareStates := someSquareStates.
+	squaresStates := someSquareStates.

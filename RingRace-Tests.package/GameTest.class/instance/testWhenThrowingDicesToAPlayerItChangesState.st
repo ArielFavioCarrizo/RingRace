@@ -5,7 +5,7 @@ testWhenThrowingDicesToAPlayerItChangesState
 	dices := {(Dice withNumbersFrom: (ReadStream on: #(1 2 3 4)))}.
 	gameStateContext := GameStateContext 
 		withPlayers: {nico}
-		in:
+		withBoardState:
 			(BoardState
 				withSquareEffects: (OrderedCollection new: 30 withAll: NoSquareEffect new))
 		andWhenStateIsUpdatedDo: [].

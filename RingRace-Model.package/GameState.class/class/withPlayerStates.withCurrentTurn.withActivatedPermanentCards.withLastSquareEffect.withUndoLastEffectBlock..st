@@ -1,8 +1,0 @@
-instantation
-withPlayerStates: someStatesPerPlayer withCurrentTurn: aTurn withActivatedPermanentCards: someActivatedPermanentCards withLastSquareEffect: aLastSquareEffect withUndoLastEffectBlock: anUndoLastEffectBlock
-	^ self new
-		initializeWithPlayerStates: someStatesPerPlayer
-		withCurrentTurn: aTurn
-		withActivatedPermanentCards: someActivatedPermanentCards
-		withLastSquareEffect: aLastSquareEffect
-		withUndoLastEffectBlock: anUndoLastEffectBlock

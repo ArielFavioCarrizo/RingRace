@@ -1,9 +1,10 @@
 {
 	"instance" : {
-		"testCreatingNewGameStateWithPlayerOfCurrentTurnChange" : "ArielFavioCarrizo 12/3/2017 12:27",
-		"testAfterCreatingGameStateItHasTheInitialPlayersStates" : "fjf 11/14/2017 20:50",
-		"testCreatingNewGameStateWithPlayerStateChange" : "ArielFavioCarrizo 12/3/2017 12:27",
-		"testAfterCreatingGameStateThePlayerTurnIsOwnedByTheFirstPlayer" : "ArielFavioCarrizo 12/3/2017 12:25"
+		"testCreatingNewGameStateWithPlayerOfCurrentTurnChange" : "ArielFavioCarrizo 12/5/2017 22:25",
+		"testCreatingNewGameStateWithPlayerStateChange" : "ArielFavioCarrizo 12/5/2017 22:25",
+		"testAfterCreatingGameStateItHasTheInitialPlayersStates" : "ArielFavioCarrizo 12/5/2017 22:25",
+		"testAfterCreatingGameStateThePlayerTurnIsOwnedByTheFirstPlayer" : "ArielFavioCarrizo 12/5/2017 22:25",
+		"defaultBoardState" : "ArielFavioCarrizo 12/5/2017 22:24"
 	},
 	"class" : { }
 }

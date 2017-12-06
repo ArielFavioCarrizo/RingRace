@@ -1,14 +1,14 @@
 {
 	"instance" : {
-		"testWhenActivatingAInstantaneousCardItsAnulacionEffectIsApplied" : "ArielFavioCarrizo 12/3/2017 21:19",
-		"testWhenTryingToApplySameCardTwoTimesThrowsError" : "ArielFavioCarrizo 12/3/2017 21:19",
-		"testWhenApplyingADeshacerCardItUndoesTheAtomicBombSquareEffect" : "ArielFavioCarrizo 12/3/2017 21:19",
-		"testWhenActivatingAPermanentCardItsSobrecargaEffectIsApplied" : "ArielFavioCarrizo 12/3/2017 21:19",
-		"testWhenActivatingAInstantaneousCardItsPotenciacionEffectIsApplied" : "ArielFavioCarrizo 12/3/2017 21:19",
-		"testWhenApplyingADeshacerCardItUndoesTheMoonwalkSquareEffect" : "ArielFavioCarrizo 12/3/2017 21:19",
-		"testWhenApplyingADeshacerCardItUndoesTheSpeedupSquareEffect" : "ArielFavioCarrizo 12/3/2017 21:19",
-		"testWhenApplyingADeshacerCardWithNoSquareEffectItDoesNothing" : "ArielFavioCarrizo 12/3/2017 21:19",
-		"testWhenActivatingAPermanentCardItsVelocidadEffectIsApplied" : "ArielFavioCarrizo 12/3/2017 21:19"
+		"testWhenActivatingAInstantaneousCardItsAnulacionEffectIsApplied" : "ArielFavioCarrizo 12/5/2017 21:41",
+		"testWhenTryingToApplySameCardTwoTimesThrowsError" : "ArielFavioCarrizo 12/5/2017 21:18",
+		"testWhenApplyingADeshacerCardItUndoesTheAtomicBombSquareEffect" : "ArielFavioCarrizo 12/5/2017 21:18",
+		"testWhenActivatingAPermanentCardItsSobrecargaEffectIsApplied" : "ArielFavioCarrizo 12/5/2017 21:18",
+		"testWhenActivatingAInstantaneousCardItsPotenciacionEffectIsApplied" : "ArielFavioCarrizo 12/5/2017 21:18",
+		"testWhenApplyingADeshacerCardItUndoesTheMoonwalkSquareEffect" : "ArielFavioCarrizo 12/5/2017 21:18",
+		"testWhenApplyingADeshacerCardItUndoesTheSpeedupSquareEffect" : "ArielFavioCarrizo 12/5/2017 21:18",
+		"testWhenApplyingADeshacerCardWithNoSquareEffectItDoesNothing" : "ArielFavioCarrizo 12/5/2017 21:18",
+		"testWhenActivatingAPermanentCardItsVelocidadEffectIsApplied" : "ArielFavioCarrizo 12/5/2017 21:18"
 	},
 	"class" : { }
 }

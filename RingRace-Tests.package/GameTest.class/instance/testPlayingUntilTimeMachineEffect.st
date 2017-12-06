@@ -7,7 +7,7 @@ testPlayingUntilTimeMachineEffect
 	santi}.
 	game := Game
 		withPlayers: players
-		withBoard:
+		withBoardState:
 			(BoardState
 				withSquareEffects:
 					{NoSquareEffect new.

@@ -1,11 +1,11 @@
 {
 	"instance" : {
-		"testNewPositionWithSingleForwardMovementIsCorrectlyCalculated" : "ArielFavioCarrizo 12/3/2017 21:19",
-		"testNewPositionWithMultipleForwardMovementsIsCorrectlyCalculated" : "ArielFavioCarrizo 12/3/2017 21:19",
-		"testNewPositionWithSingleBackwardMovementIsCorrectlyCalculated" : "ArielFavioCarrizo 12/3/2017 21:19",
-		"testWhenNoMovementAreAppliedPositionRemainsTheSame" : "ArielFavioCarrizo 12/3/2017 21:19",
-		"testNewPositionWithCreatedMovementWithANumberOfSquareToAdvanceIsCorrectlyCalculated" : "ArielFavioCarrizo 12/3/2017 21:19",
-		"testNewPositionWithTwoChainedForwardMovementsIsCorrectlyCalculated" : "ArielFavioCarrizo 12/3/2017 21:19"
+		"testNewPositionWithSingleForwardMovementIsCorrectlyCalculated" : "ArielFavioCarrizo 12/5/2017 22:26",
+		"testNewPositionWithMultipleForwardMovementsIsCorrectlyCalculated" : "ArielFavioCarrizo 12/5/2017 22:26",
+		"testNewPositionWithSingleBackwardMovementIsCorrectlyCalculated" : "ArielFavioCarrizo 12/5/2017 22:26",
+		"testWhenNoMovementAreAppliedPositionRemainsTheSame" : "ArielFavioCarrizo 12/5/2017 22:26",
+		"testNewPositionWithCreatedMovementWithANumberOfSquareToAdvanceIsCorrectlyCalculated" : "ArielFavioCarrizo 12/5/2017 22:26",
+		"testNewPositionWithTwoChainedForwardMovementsIsCorrectlyCalculated" : "ArielFavioCarrizo 12/5/2017 22:26"
 	},
 	"class" : { }
 }

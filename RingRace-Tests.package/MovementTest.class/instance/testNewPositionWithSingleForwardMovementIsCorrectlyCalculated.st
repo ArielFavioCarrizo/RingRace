@@ -4,9 +4,9 @@ testNewPositionWithSingleForwardMovementIsCorrectlyCalculated
 	board := BoardState withSquareEffects: (OrderedCollection new: 30 withAll: NoSquareEffect new).
 	movement := SingleForwardMovement new.
 	oldPosition := PositionInGame positionedInSquare: 1 withLaps: 1.
-	firstChangedPosition := movement newPositionInGameFrom: oldPosition withBoard: board.
+	firstChangedPosition := movement newPositionInGameFrom: oldPosition withBoardState: board.
 	self assert: firstChangedPosition squareNumber equals: 2.
 	self assert: firstChangedPosition laps equals: 1.
-	secondChangedPosition := movement newPositionInGameFrom: firstChangedPosition withBoard: board.
+	secondChangedPosition := movement newPositionInGameFrom: firstChangedPosition withBoardState: board.
 	self assert: secondChangedPosition squareNumber equals: 3.
 	self assert: secondChangedPosition laps equals: 1

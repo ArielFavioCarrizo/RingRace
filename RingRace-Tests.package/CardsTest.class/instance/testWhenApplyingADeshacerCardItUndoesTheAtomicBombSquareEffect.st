@@ -5,7 +5,7 @@ testWhenApplyingADeshacerCardItUndoesTheAtomicBombSquareEffect
 	santi := Player named: 'Santi'.
 	game := Game
 		withPlayers: {nico. santi}
-		withBoard:
+		withBoardState:
 			(BoardState
 				withSquareEffects:
 					{NoSquareEffect new.

@@ -4,9 +4,9 @@ testNewPositionWithSingleBackwardMovementIsCorrectlyCalculated
 	board := BoardState withSquareEffects: (OrderedCollection new: 30 withAll: NoSquareEffect new).
 	backwardMovement := SingleBackwardMovement new.
 	oldPosition := PositionInGame positionedInSquare: 1 withLaps: 1.
-	firstChangedPosition := backwardMovement newPositionInGameFrom: oldPosition withBoard: board.
+	firstChangedPosition := backwardMovement newPositionInGameFrom: oldPosition withBoardState: board.
 	self assert: firstChangedPosition squareNumber equals: board length.
 	self assert: firstChangedPosition laps equals: 0.
-	secondChangedPosition := backwardMovement newPositionInGameFrom: firstChangedPosition withBoard: board.
+	secondChangedPosition := backwardMovement newPositionInGameFrom: firstChangedPosition withBoardState: board.
 	self assert: secondChangedPosition squareNumber equals: board length - 1.
 	self assert: secondChangedPosition laps equals: 0

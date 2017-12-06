@@ -5,7 +5,7 @@ testWhenActivatingAInstantaneousCardItsPotenciacionEffectIsApplied
 	game := Game
 		withPlayers:
 			{nico}
-		withBoard:
+		withBoardState:
 			(BoardState
 				withSquareEffects:
 					{NoSquareEffect new.

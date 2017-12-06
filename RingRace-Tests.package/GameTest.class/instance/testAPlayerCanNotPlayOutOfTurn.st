@@ -7,7 +7,7 @@ testAPlayerCanNotPlayOutOfTurn
 		withPlayers:
 			{nico.
 			santi}
-		withBoard:
+		withBoardState:
 			(BoardState
 				withSquareEffects: (OrderedCollection new: 10 withAll: NoSquareEffect new))
 		withDices: {(Dice withNumbersFrom: (ReadStream on: #(3 2 5 1 2 3 5)))}

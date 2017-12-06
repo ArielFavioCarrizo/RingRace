@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"squares",
-		"squareStates"
+		"squaresStates"
 	],
 	"name" : "BoardState",
 	"type" : "normal"

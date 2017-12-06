@@ -7,7 +7,7 @@ testWhenPlayingAGameWithNoEffectsPlayerCanWin
 	player2}.
 	game := Game
 		withPlayers: players
-		withBoard:
+		withBoardState:
 			(BoardState
 				withSquareEffects: (OrderedCollection new: 10 withAll: NoSquareEffect new))
 		withDices:

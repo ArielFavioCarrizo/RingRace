@@ -1,7 +1,0 @@
-{
-	"instance" : {
-		"testWhenCreatingABoardItHasEffects" : "ArielFavioCarrizo 12/3/2017 21:19",
-		"testWhenCreatingABoardWithProbabilitiesItHasCorrectEffects" : "ArielFavioCarrizo 12/3/2017 21:19"
-	},
-	"class" : { }
-}

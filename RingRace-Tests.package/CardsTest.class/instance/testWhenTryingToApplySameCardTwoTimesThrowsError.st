@@ -4,7 +4,7 @@ testWhenTryingToApplySameCardTwoTimesThrowsError
 	nico := Player named: 'Nico'.
 	game := Game
 		withPlayers: {nico}
-		withBoard:
+		withBoardState:
 			(BoardState
 				withSquareEffects:
 					{NoSquareEffect new.

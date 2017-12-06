@@ -7,8 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"gameStates",
-		"board",
-		"notifyStateUpdateBlock"
+		"notifyStateUpdateBlock",
+		"boardState"
 	],
 	"name" : "GameStateContext",
 	"type" : "normal"

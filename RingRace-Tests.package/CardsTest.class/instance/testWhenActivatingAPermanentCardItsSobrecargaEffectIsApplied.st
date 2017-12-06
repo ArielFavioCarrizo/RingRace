@@ -7,7 +7,7 @@ testWhenActivatingAPermanentCardItsSobrecargaEffectIsApplied
 		withPlayers:
 			{nico.
 			santi}
-		withBoard: (BoardState withSquareEffects: (OrderedCollection new: 10 withAll: NoSquareEffect new))
+		withBoardState: (BoardState withSquareEffects: (OrderedCollection new: 10 withAll: NoSquareEffect new))
 		withDices: {(Dice withNumbersFrom: (ReadStream on: #(3 2 1 2 2 2 2)))}
 		winningWhen: (ReachedNumberOfLaps reaching: 2).
 	card := PermanentCard withEffect: SobrecargaEffect new.

@@ -10,7 +10,8 @@
 		"currentTurn",
 		"activatedPermanentCards",
 		"undoLastEffectBlock",
-		"lastSquareEffect"
+		"lastSquareEffect",
+		"boardState"
 	],
 	"name" : "GameState",
 	"type" : "normal"

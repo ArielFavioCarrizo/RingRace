@@ -7,7 +7,7 @@ testPlayingUntilAtomicBombEffect
 	player2}.
 	game := Game
 		withPlayers: players
-		withBoard:
+		withBoardState:
 			(BoardState
 				withSquareEffects:
 					{NoSquareEffect new.

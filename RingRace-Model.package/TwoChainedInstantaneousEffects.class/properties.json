@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "InstantaneousEffect",
+	"category" : "RingRace-Model-Game-Effect",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"firstEffect",
+		"secondEffect"
+	],
+	"name" : "TwoChainedInstantaneousEffects",
+	"type" : "normal"
+}

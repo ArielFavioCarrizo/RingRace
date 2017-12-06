@@ -5,7 +5,7 @@ testWhenCreatingGameStateContextItHasTheInitialGameState
 	nico := Player named: 'Nico'.
 	claudio := Player named: 'Claudio'.
 	
-	aGameStateContext := GameStateContext withPlayers: { nico. claudio } in: (self board) andWhenStateIsUpdatedDo: [].
+	aGameStateContext := GameStateContext withPlayers: { nico. claudio } withBoardState: (self boardState) andWhenStateIsUpdatedDo: [].
 	gameState := aGameStateContext currentState.
 	
 	self assert: ( (gameState stateOf: nico) positionInGame squareNumber ) equals: 1.

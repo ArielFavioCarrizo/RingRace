@@ -1,17 +1,17 @@
 {
 	"instance" : {
-		"testPlayingUntilAtomicBombEffect" : "ArielFavioCarrizo 12/3/2017 21:19",
-		"testWhenThrowingDicesToAPlayerItChangesState" : "ArielFavioCarrizo 12/3/2017 21:19",
-		"testPlayingUntilTimeMachineEffect" : "ArielFavioCarrizo 12/3/2017 21:19",
-		"testPlayingUntilSpeedUpEffect" : "ArielFavioCarrizo 12/3/2017 21:19",
-		"testGameCreationWithPlayersAndBoard" : "ArielFavioCarrizo 12/3/2017 21:19",
-		"testWhenFallingIntoMoonwalkEffectInFirstTurnPlayersGetNegativeLaps" : "ArielFavioCarrizo 12/3/2017 21:19",
-		"testWhenPlayingAGameWithNoEffectsPlayerCanWin" : "ArielFavioCarrizo 12/3/2017 21:19",
-		"testWhenFallingIntoTimeMachineEffectInFirstTurnPlayerStaysAtFirstSquare" : "ArielFavioCarrizo 12/3/2017 21:19",
-		"testPlayingWithSquareEffectsUntilWinner" : "ArielFavioCarrizo 12/3/2017 21:19",
-		"testPlayingUntilWormHoleEffect" : "ArielFavioCarrizo 12/3/2017 21:19",
-		"testAPlayerCanNotPlayOutOfTurn" : "ArielFavioCarrizo 12/3/2017 21:19",
-		"testPlayingUntilMoonwalkEffect" : "ArielFavioCarrizo 12/3/2017 21:19"
+		"testPlayingUntilAtomicBombEffect" : "ArielFavioCarrizo 12/5/2017 21:18",
+		"testWhenThrowingDicesToAPlayerItChangesState" : "ArielFavioCarrizo 12/5/2017 22:20",
+		"testPlayingUntilTimeMachineEffect" : "ArielFavioCarrizo 12/5/2017 21:18",
+		"testPlayingUntilSpeedUpEffect" : "ArielFavioCarrizo 12/5/2017 21:18",
+		"testGameCreationWithPlayersAndBoard" : "ArielFavioCarrizo 12/5/2017 21:28",
+		"testWhenFallingIntoMoonwalkEffectInFirstTurnPlayersGetNegativeLaps" : "ArielFavioCarrizo 12/5/2017 21:18",
+		"testWhenPlayingAGameWithNoEffectsPlayerCanWin" : "ArielFavioCarrizo 12/5/2017 21:18",
+		"testWhenFallingIntoTimeMachineEffectInFirstTurnPlayerStaysAtFirstSquare" : "ArielFavioCarrizo 12/5/2017 21:18",
+		"testPlayingWithSquareEffectsUntilWinner" : "ArielFavioCarrizo 12/5/2017 21:18",
+		"testPlayingUntilWormHoleEffect" : "ArielFavioCarrizo 12/5/2017 21:18",
+		"testAPlayerCanNotPlayOutOfTurn" : "ArielFavioCarrizo 12/5/2017 21:18",
+		"testPlayingUntilMoonwalkEffect" : "ArielFavioCarrizo 12/5/2017 21:18"
 	},
 	"class" : { }
 }

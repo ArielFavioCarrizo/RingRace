@@ -1,3 +1,3 @@
 accessing
 length
-	^ squares size
+	^ squaresStates size

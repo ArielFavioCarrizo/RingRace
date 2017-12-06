@@ -5,6 +5,6 @@ testNewPositionWithTwoChainedForwardMovementsIsCorrectlyCalculated
 	singleMovement := SingleForwardMovement new.
 	compositeMovement := TwoChainedMovements withFirstMovement: singleMovement andSecondMovement: singleMovement.
 	oldPosition := PositionInGame positionedInSquare: 1 withLaps: 1.
-	newPosition := compositeMovement newPositionInGameFrom: oldPosition withBoard: board.
+	newPosition := compositeMovement newPositionInGameFrom: oldPosition withBoardState: board.
 	self assert: newPosition squareNumber equals: 3.
 	self assert: newPosition laps equals: 1

@@ -7,7 +7,7 @@ testWhenFallingIntoTimeMachineEffectInFirstTurnPlayerStaysAtFirstSquare
 		withPlayers:
 			{nico.
 			santi}
-		withBoard:
+		withBoardState:
 			(BoardState
 				withSquareEffects:
 					{NoSquareEffect new.

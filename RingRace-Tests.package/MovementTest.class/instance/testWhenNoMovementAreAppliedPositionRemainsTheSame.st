@@ -7,4 +7,4 @@ testWhenNoMovementAreAppliedPositionRemainsTheSame
 	movement := NoMovement new.
 	oldPosition := PositionInGame positionedInSquare: 1 withLaps: 1.
 	
-	self assert: ( movement newPositionInGameFrom: oldPosition withBoard: board ) equals: oldPosition.
+	self assert: ( movement newPositionInGameFrom: oldPosition withBoardState: board ) equals: oldPosition.

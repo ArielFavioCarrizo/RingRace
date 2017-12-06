@@ -1,9 +1,9 @@
 {
 	"instance" : {
-		"initializeWithSquareStates:" : "ArielFavioCarrizo 12/3/2017 21:27",
-		"squareAt:" : "ArielFavioCarrizo 9/20/2017 21:14",
-		"withNewSquareState:at:" : "ArielFavioCarrizo 12/3/2017 21:45",
-		"length" : "ArielFavioCarrizo 9/20/2017 20:35"
+		"initializeWithSquareStates:" : "ArielFavioCarrizo 12/5/2017 20:29",
+		"squareAt:" : "ArielFavioCarrizo 12/5/2017 20:29",
+		"withNewSquareState:at:" : "ArielFavioCarrizo 12/5/2017 20:31",
+		"length" : "ArielFavioCarrizo 12/5/2017 20:32"
 	},
 	"class" : {
 		"handleSquareEffectsWithProportion:" : "fjf 11/1/2017 20:20",
