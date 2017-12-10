@@ -1,0 +1,10 @@
+instantiation
+withPlayerStates: someStatesPerPlayer withBoardState: aBoardState withCurrentTurn: aTurn withPermanentCardActivations: somePermanentCardsActivation withEffectsPerDiceThrow: someEffectsPerDiceThrow withLastSquareEffect: aLastSquareEffect withUndoLastEffectBlock: anUndoLastEffectBlock
+	^ self new
+		initializeWithPlayerStates: someStatesPerPlayer
+		withBoardState: aBoardState
+		withCurrentTurn: aTurn
+		withPermanentCardActivations: somePermanentCardsActivation
+		withEffectsPerDiceThrow: someEffectsPerDiceThrow
+		withLastSquareEffect: aLastSquareEffect
+		withUndoLastEffectBlock: anUndoLastEffectBlock

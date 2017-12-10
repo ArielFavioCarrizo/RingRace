@@ -1,10 +1,9 @@
 {
 	"instance" : {
+		"deactivatingIn:" : "ArielFavioCarrizo 12/9/2017 20:53",
 		"initializeWithEffect:" : "fjf 11/14/2017 15:27",
-		"effect" : "ArielFavioCarrizo 12/5/2017 21:34",
-		"activatingIn:for:" : "ArielFavioCarrizo 12/3/2017 15:30"
+		"activatingIn:for:" : "ArielFavioCarrizo 12/9/2017 22:02",
+		"gameStateWithCardActivationFor:in:" : "ArielFavioCarrizo 12/9/2017 22:01"
 	},
-	"class" : {
-		"withEffect:" : "fjf 11/14/2017 15:26"
-	}
+	"class" : { }
 }

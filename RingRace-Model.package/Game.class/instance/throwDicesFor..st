@@ -6,7 +6,7 @@ throwDicesFor: aPlayer
 		andGameNotEndedDo: [ 
 			playerTurn := Turn of: aPlayer.
 			
-			playerTurn applyActivatedCardsIn: gameStateContext.
+			playerTurn applyEffectsPerDiceThrowIn: gameStateContext.
 		   playerTurn throwDices: dices in: gameStateContext.
 			
 			self advanceTurn ]

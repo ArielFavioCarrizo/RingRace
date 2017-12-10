@@ -10,7 +10,7 @@ testWhenActivatingAInstantaneousCardItsAnulacionEffectIsApplied
 		withBoardState: (BoardState withSquareEffects: (OrderedCollection new: 10 withAll: NoSquareEffect new))
 		withDices: {(Dice withNumbersFrom: (ReadStream on: #(2 2 2 2 2 2 2)))}
 		winningWhen: (ReachedNumberOfLaps reaching: 2).
-	velocidadCard := PermanentCard withEffect: VelocidadEffect new.
+	velocidadCard := PermanentCardBasedInEffectPerDiceThrow withEffect: VelocidadEffect new.
 	anulacionCard := InstantaneousCard withEffect: AnulacionEffect new.
 	nico give: velocidadCard.
 	santi give: anulacionCard .
@@ -31,7 +31,7 @@ testWhenActivatingAInstantaneousCardItsAnulacionEffectIsApplied
 	self assert: (game stateOf: santi) positionInGame laps equals: 0.
 	santi activate: anulacionCard  in: game.
 	game throwDicesFor: nico.
-	self assert: (game stateOf: nico) positionInGame squareNumber equals: 7.
+	self assert: (game stateOf: nico) positionInGame squareNumber equals: 6.
 	self assert: (game stateOf: nico) positionInGame laps equals: 0.
 	self assert: (game stateOf: santi) positionInGame squareNumber equals: 3.
 	self assert: (game stateOf: santi) positionInGame laps equals: 0

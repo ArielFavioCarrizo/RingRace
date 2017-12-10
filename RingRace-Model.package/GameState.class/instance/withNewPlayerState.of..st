@@ -7,6 +7,7 @@ withNewPlayerState: aPlayerState of: aPlayer
 		withPlayerStates: newStatesPerPlayer
 		withBoardState: boardState
 		withCurrentTurn: currentTurn
-		withActivatedPermanentCards: activatedPermanentCards
+		withPermanentCardActivations: permanentCardActivations
+		withEffectsPerDiceThrow: effectsPerDiceThrow
 		withLastSquareEffect: lastSquareEffect 
 		withUndoLastEffectBlock: undoLastEffectBlock

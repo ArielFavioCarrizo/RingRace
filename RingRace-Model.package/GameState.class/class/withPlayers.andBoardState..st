@@ -1,8 +1,7 @@
 instantiation
 withPlayers: somePlayers andBoardState: aBoardState
-	| playerStates activatedPermanentCards |
+	| playerStates |
 	playerStates := Dictionary new.
-	activatedPermanentCards := OrderedCollection new.
 	somePlayers
 		do:
 			[ :eachPlayer | playerStates at: eachPlayer put: (PlayerState withPositionInGame: (PositionInGame positionedInSquare: 1 withLaps: 0)) ].
@@ -10,6 +9,7 @@ withPlayers: somePlayers andBoardState: aBoardState
 		initializeWithPlayerStates: playerStates
 		withBoardState: aBoardState
 		withCurrentTurn: ( Turn of: (somePlayers first) )
-		withActivatedPermanentCards: activatedPermanentCards
+		withPermanentCardActivations: ( OrderedCollection new )
+		withEffectsPerDiceThrow: ( OrderedCollection new )
 		withLastSquareEffect: NoSquareEffect new
 		withUndoLastEffectBlock: [  ]

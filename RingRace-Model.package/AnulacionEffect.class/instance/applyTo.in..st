@@ -1,3 +1,4 @@
 action
 applyTo: aPlayer in: aGameStateContext
-	aGameStateContext newTransformedLastState: [ :aGameState | aGameState withRemovedActivePermanentCard: cardToRemove ]
+	cardToRemove := aGameStateContext currentState permanentCardActivations first card.
+	cardToRemove deactivatingIn: aGameStateContext.

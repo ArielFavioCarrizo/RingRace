@@ -10,7 +10,7 @@ testWhenActivatingAPermanentCardItsVelocidadEffectIsApplied
 		withBoardState: (BoardState withSquareEffects: (OrderedCollection new: 10 withAll: NoSquareEffect new))
 		withDices: {(Dice withNumbersFrom: (ReadStream on: #(2 2 2 2 2 2 2)))}
 		winningWhen: (ReachedNumberOfLaps reaching: 2).
-	card := PermanentCard withEffect: VelocidadEffect new.
+	card := PermanentCardBasedInEffectPerDiceThrow withEffect: VelocidadEffect new.
 	nico give: card.
 	self assert: (game stateOf: nico) positionInGame squareNumber equals: 1.
 	self assert: (game stateOf: nico) positionInGame laps equals: 0.

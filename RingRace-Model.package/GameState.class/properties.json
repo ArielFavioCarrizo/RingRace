@@ -8,10 +8,11 @@
 	"instvars" : [
 		"playerStates",
 		"currentTurn",
-		"activatedPermanentCards",
+		"permanentCardActivations",
 		"undoLastEffectBlock",
 		"lastSquareEffect",
-		"boardState"
+		"boardState",
+		"effectsPerDiceThrow"
 	],
 	"name" : "GameState",
 	"type" : "normal"

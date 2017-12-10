@@ -1,10 +1,10 @@
 action
-withUndoLastEffectBlock: aUndoLastEffectBlock
+withNewEffectPerDicesThrow: aEffectPerDiceThrow
 	^ self class
 		withPlayerStates: playerStates
 		withBoardState: boardState
 		withCurrentTurn: currentTurn
 		withPermanentCardActivations: permanentCardActivations
-		withEffectsPerDiceThrow: effectsPerDiceThrow
+		withEffectsPerDiceThrow: ( effectsPerDiceThrow copyWith: aEffectPerDiceThrow )
 		withLastSquareEffect: lastSquareEffect 
-		withUndoLastEffectBlock: aUndoLastEffectBlock
+		withUndoLastEffectBlock: undoLastEffectBlock

@@ -4,6 +4,7 @@ withLastSquareEffect: aLastSquareEffect
 		withPlayerStates: playerStates
 		withBoardState: boardState
 		withCurrentTurn: currentTurn
-		withActivatedPermanentCards: activatedPermanentCards
+		withPermanentCardActivations: permanentCardActivations
+		withEffectsPerDiceThrow: effectsPerDiceThrow
 		withLastSquareEffect: aLastSquareEffect
 		withUndoLastEffectBlock: undoLastEffectBlock

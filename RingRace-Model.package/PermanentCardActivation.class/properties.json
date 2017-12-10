@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "RingRace-Model-Game-Cards",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"card",
+		"player",
+		"gameStateContext",
+		"disableActionBlock",
+		"hasBeenDisabled"
+	],
+	"name" : "PermanentCardActivation",
+	"type" : "normal"
+}
