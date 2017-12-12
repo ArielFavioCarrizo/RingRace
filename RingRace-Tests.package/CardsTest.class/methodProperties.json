@@ -1,6 +1,6 @@
 {
 	"instance" : {
-		"testWhenActivatingAPermanentCardItsSpeedBoostEffectIsAppliedOverTheCurrentSquareOfPlayerAndWhenItHasBeenDeactivatedItsEffectDisappears" : "ArielFavioCarrizo 12/11/2017 22:09",
+		"testWhenActivatingAPermanentCardItsSpeedBoostEffectIsAppliedOverTheCurrentSquareOfPlayerAndWhenItHasBeenDeactivatedItsEffectDisappears" : "ArielFavioCarrizo 12/11/2017 23:44",
 		"testWhenTryingToApplySameCardTwoTimesThrowsError" : "ArielFavioCarrizo 12/5/2017 21:18",
 		"testWhenActivatingAInstantaneousCardItsPotenciacionEffectIsApplied" : "ArielFavioCarrizo 12/5/2017 21:18",
 		"testWhenActivatingAPermanentCardItsVelocidadEffectIsApplied" : "ArielFavioCarrizo 12/9/2017 22:41",
