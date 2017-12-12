@@ -5,6 +5,6 @@ withNewPlayerPositionsFrom: aGameState of: somePlayers
 	somePlayers
 		do: [ :eachPlayer | 
 			newGameState := newGameState
-				withTransformedPlayerStateDoing: [ :playerState | playerState withNewPositionInGame: (aGameState stateOf: eachPlayer) positionInGame ]
+				withTransformedPlayerStateDoingItAs: [ :playerState | playerState withNewPositionInGame: (aGameState stateOf: eachPlayer) positionInGame ]
 				of: eachPlayer ].
 	^ newGameState

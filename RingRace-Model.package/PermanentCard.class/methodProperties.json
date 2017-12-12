@@ -1,10 +1,9 @@
 {
 	"instance" : {
-		"activatingIn:for:" : "ArielFavioCarrizo 12/9/2017 22:02",
 		"deactivatingIn:" : "ArielFavioCarrizo 12/9/2017 20:53",
-		"gameStateWithCardActivationFor:in:doingActivationAs:andDeactivationAs:" : "ArielFavioCarrizo 12/10/2017 16:14",
-		"gameStateWithCardActivationFor:in:" : "ArielFavioCarrizo 12/9/2017 22:01",
-		"initializeWithEffect:" : "ArielFavioCarrizo 12/11/2017 21:48"
+		"gameStateWithCardActivationFor:in:doingActivationAs:andDeactivationAs:" : "ArielFavioCarrizo 12/11/2017 22:21",
+		"activatingIn:for:" : "ArielFavioCarrizo 12/9/2017 22:02",
+		"gameStateWithCardActivationFor:in:" : "ArielFavioCarrizo 12/9/2017 22:01"
 	},
 	"class" : { }
 }

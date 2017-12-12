@@ -5,5 +5,5 @@ applyMovement: aMovement to: somePlayers in: aGameStateContext
 	aGameStateContext
 		newState:
 			((aGameStateContext currentState
-				withTransformedPlayerStatesDoing: [ :eachPlayerState | aMovement newPlayerStateFrom: eachPlayerState withBoardState: ( aGameStateContext currentState boardState ) ]
+				withTransformedPlayerStatesDoingEachAs: [ :eachPlayerState | aMovement newPlayerStateFrom: eachPlayerState withBoardState: ( aGameStateContext currentState boardState ) ]
 				of: somePlayers) withUndoLastEffectBlock: undoLastEffectBlock)

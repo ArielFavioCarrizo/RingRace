@@ -5,5 +5,5 @@ applyTo: aPlayer in: aGameStateContext
 	undoEffectBlock := aGameStateContext createUndoPositionChangeBlockFor: ( gameState players ).
 	
 	aGameStateContext newState: 
-			( ( gameState withTransformedPlayerStatesDoing: [ :eachPlayerState | eachPlayerState withNewPositionInGame: (PositionInGame positionedInSquare: 1 withLaps: 0) ]
+			( ( gameState withTransformedPlayerStatesDoingEachAs: [ :eachPlayerState | eachPlayerState withNewPositionInGame: (PositionInGame positionedInSquare: 1 withLaps: 0) ]
 				of: gameState players) withUndoLastEffectBlock: undoEffectBlock ).
