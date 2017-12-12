@@ -1,11 +1,13 @@
 {
 	"instance" : {
+		"withRemovedEffect:" : "ArielFavioCarrizo 12/10/2017 17:02",
 		"effects" : "ArielFavioCarrizo 12/5/2017 20:45",
-		"initializeWithEffects:" : "ArielFavioCarrizo 12/5/2017 21:12",
+		"initializeWithEffects:" : "ArielFavioCarrizo 12/11/2017 21:39",
+		"withAddedEffectAsFirst:" : "ArielFavioCarrizo 12/11/2017 20:06",
 		"compositeEffect" : "ArielFavioCarrizo 12/5/2017 21:15"
 	},
 	"class" : {
 		"withEffects:" : "ArielFavioCarrizo 12/5/2017 20:43",
-		"withEffect:" : "ArielFavioCarrizo 12/5/2017 20:44"
+		"withEffect:" : "ArielFavioCarrizo 12/11/2017 21:39"
 	}
 }

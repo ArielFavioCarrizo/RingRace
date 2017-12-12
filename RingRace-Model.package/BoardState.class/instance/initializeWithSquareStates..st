@@ -1,3 +1,3 @@
 instance initialization
 initializeWithSquareStates: someSquareStates
-	squaresStates := someSquareStates.
+	squaresStates := OrderedCollection withAll: someSquareStates.

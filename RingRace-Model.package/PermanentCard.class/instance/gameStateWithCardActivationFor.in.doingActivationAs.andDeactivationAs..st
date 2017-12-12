@@ -1,0 +1,3 @@
+protected
+gameStateWithCardActivationFor: aPlayer in: gameState doingActivationAs: aActivationEffectGameStateTransformingBlock andDeactivationAs: aDeactivationEffectGameStateTransformingBlock
+	^(aActivationEffectGameStateTransformingBlock value: gameState) withNewPermanentCardActivation: ( PermanentCardActivation withCard: self for: aPlayer withDisableActionInGameState: aDeactivationEffectGameStateTransformingBlock )

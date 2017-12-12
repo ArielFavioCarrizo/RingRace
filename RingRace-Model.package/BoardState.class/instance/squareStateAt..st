@@ -1,3 +1,3 @@
 accessing
-squareAt: aPosition
+squareStateAt: aPosition
 	^squaresStates at: aPosition

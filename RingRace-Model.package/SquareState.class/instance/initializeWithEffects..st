@@ -1,4 +1,4 @@
 initialization
 initializeWithEffects: someSquareEffects
-	effects := someSquareEffects.
+	effects := OrderedCollection withAll: someSquareEffects.
 	compositeEffect := InstantaneousEffect compositeWith: someSquareEffects.

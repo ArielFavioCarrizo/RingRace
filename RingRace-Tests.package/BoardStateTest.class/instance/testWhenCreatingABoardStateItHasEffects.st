@@ -9,4 +9,4 @@ testWhenCreatingABoardStateItHasEffects
 	TimeMachineSquareEffect new}.
 	board := BoardState withSquareEffects: squareEffects.
 	self assert: board length equals: squareEffects size.
-	1 to: board length do: [ :i | self assert: (board squareAt: i) compositeEffect equals: (squareEffects at: i) ]
+	1 to: board length do: [ :i | self assert: (board squareStateAt: i) compositeEffect equals: (squareEffects at: i) ]

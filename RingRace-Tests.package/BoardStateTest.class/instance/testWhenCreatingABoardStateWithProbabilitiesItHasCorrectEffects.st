@@ -18,4 +18,4 @@ testWhenCreatingABoardStateWithProbabilitiesItHasCorrectEffects
 										speedUp.
 										speedUp
 										}.
-	1 to: board length do: [ :i | self assert: (board squareAt: i) compositeEffect equals: (effectsShouldBeInBoard at: i) ]
+	1 to: board length do: [ :i | self assert: (board squareStateAt: i) compositeEffect equals: (effectsShouldBeInBoard at: i) ]

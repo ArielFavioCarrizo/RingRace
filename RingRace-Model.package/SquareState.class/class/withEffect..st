@@ -1,3 +1,3 @@
 instantiation
 withEffect: aSquareEffect
-	^self new initializeWithEffects: { aSquareEffect }.
+	^self withEffects: {aSquareEffect}.

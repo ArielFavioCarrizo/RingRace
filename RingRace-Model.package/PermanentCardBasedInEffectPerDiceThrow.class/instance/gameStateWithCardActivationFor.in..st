@@ -2,4 +2,4 @@ action
 gameStateWithCardActivationFor: aPlayer in: gameState
 	|effectOfActivation|
 	effectOfActivation := ( PlayerFilteredInstantaneousEffectProxy of: effect withPlayer: aPlayer ).
-	^( gameState withNewEffectPerDicesThrow: effectOfActivation ) withNewPermanentCardActivation: ( PermanentCardActivation withCard: self for: aPlayer withDisableActionInGameState: [ :targetGameState | targetGameState withRemovedEffectPerDicesThrow: effectOfActivation ] )
+	^self gameStateWithCardActivationFor: aPlayer in: gameState doingActivationAs: [ :oldGameState | oldGameState withNewEffectPerDicesThrow: effectOfActivation ] andDeactivationAs: [ :oldGameState | oldGameState withRemovedEffectPerDicesThrow: effectOfActivation ].
