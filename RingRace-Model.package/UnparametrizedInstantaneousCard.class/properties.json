@@ -1,11 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "UnparametrizedCard",
 	"category" : "RingRace-Model-Game-Cards",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "Card",
+	"instvars" : [
+		"effect"
+	],
+	"name" : "UnparametrizedInstantaneousCard",
 	"type" : "normal"
 }

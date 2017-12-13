@@ -20,7 +20,7 @@ testWhenActivatingAInstantaneousCardItsPotenciacionEffectIsApplied
 					NoSquareEffect new})
 		withDices: {(Dice withNumbersFrom: (ReadStream on: #(1 2 2 2 2 2 2)))}
 		winningWhen: (ReachedNumberOfLaps reaching: 2).
-	potenciacionCard := InstantaneousCard withEffect: PotenciacionEffect new.
+	potenciacionCard := UnparametrizedInstantaneousCard withEffect: PotenciacionEffect new.
 	nico give: potenciacionCard.
 	self assert: (game stateOf: nico) positionInGame squareNumber equals: 1.
 	self assert: (game stateOf: nico) positionInGame laps equals: 0.

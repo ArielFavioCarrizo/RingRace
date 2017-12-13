@@ -1,6 +1,9 @@
 {
 	"instance" : {
-		"applyTo:in:" : "ArielFavioCarrizo 12/9/2017 22:40"
+		"applyTo:in:" : "ArielFavioCarrizo 12/12/2017 23:10",
+		"initializeWithCardToRemove:" : "ArielFavioCarrizo 12/12/2017 23:09"
 	},
-	"class" : { }
+	"class" : {
+		"withCardToRemove:" : "ArielFavioCarrizo 12/12/2017 23:09"
+	}
 }

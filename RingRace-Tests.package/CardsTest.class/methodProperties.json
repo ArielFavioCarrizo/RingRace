@@ -1,15 +1,15 @@
 {
 	"instance" : {
-		"testWhenActivatingAPermanentCardItsSpeedBoostEffectIsAppliedOverTheCurrentSquareOfPlayerAndWhenItHasBeenDeactivatedItsEffectDisappears" : "ArielFavioCarrizo 12/11/2017 23:44",
-		"testWhenTryingToApplySameCardTwoTimesThrowsError" : "ArielFavioCarrizo 12/5/2017 21:18",
-		"testWhenActivatingAInstantaneousCardItsPotenciacionEffectIsApplied" : "ArielFavioCarrizo 12/5/2017 21:18",
+		"testWhenActivatingAPermanentCardItsSpeedBoostEffectIsAppliedOverTheCurrentSquareOfPlayerAndWhenItHasBeenDeactivatedItsEffectDisappears" : "ArielFavioCarrizo 12/12/2017 23:16",
+		"testWhenTryingToApplySameCardTwoTimesThrowsError" : "ArielFavioCarrizo 12/12/2017 23:06",
+		"testWhenActivatingAInstantaneousCardItsPotenciacionEffectIsApplied" : "ArielFavioCarrizo 12/12/2017 23:06",
 		"testWhenActivatingAPermanentCardItsVelocidadEffectIsApplied" : "ArielFavioCarrizo 12/9/2017 22:41",
-		"testWhenApplyingADeshacerCardItUndoesTheMoonwalkSquareEffect" : "ArielFavioCarrizo 12/5/2017 21:18",
+		"testWhenApplyingADeshacerCardItUndoesTheMoonwalkSquareEffect" : "ArielFavioCarrizo 12/12/2017 23:06",
 		"testWhenActivatingAPermanentCardItsSobrecargaEffectIsApplied" : "ArielFavioCarrizo 12/9/2017 22:12",
-		"testWhenActivatingAInstantaneousCardItsAnulacionEffectIsApplied" : "ArielFavioCarrizo 12/9/2017 22:41",
-		"testWhenApplyingADeshacerCardWithNoSquareEffectItDoesNothing" : "ArielFavioCarrizo 12/5/2017 21:18",
-		"testWhenApplyingADeshacerCardItUndoesTheSpeedupSquareEffect" : "ArielFavioCarrizo 12/5/2017 21:18",
-		"testWhenApplyingADeshacerCardItUndoesTheAtomicBombSquareEffect" : "ArielFavioCarrizo 12/5/2017 21:18"
+		"testWhenActivatingAInstantaneousCardItsAnulacionEffectIsApplied" : "ArielFavioCarrizo 12/12/2017 23:14",
+		"testWhenApplyingADeshacerCardWithNoSquareEffectItDoesNothing" : "ArielFavioCarrizo 12/12/2017 23:06",
+		"testWhenApplyingADeshacerCardItUndoesTheSpeedupSquareEffect" : "ArielFavioCarrizo 12/12/2017 23:06",
+		"testWhenApplyingADeshacerCardItUndoesTheAtomicBombSquareEffect" : "ArielFavioCarrizo 12/12/2017 23:06"
 	},
 	"class" : { }
 }

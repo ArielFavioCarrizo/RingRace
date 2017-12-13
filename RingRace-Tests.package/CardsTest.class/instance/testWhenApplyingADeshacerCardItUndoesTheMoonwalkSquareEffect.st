@@ -19,7 +19,7 @@ testWhenApplyingADeshacerCardItUndoesTheMoonwalkSquareEffect
 					(MoonwalkSquareEffect newWithSquaresToMove: 2)})
 		withDices: {(Dice withNumbersFrom: (ReadStream on: #(4 2 2)))}
 		winningWhen: (ReachedNumberOfLaps reaching: 2).
-	deshacerCard := InstantaneousCard withEffect: DeshacerEffect new.
+	deshacerCard := UnparametrizedInstantaneousCard withEffect: DeshacerEffect new.
 	nico give: deshacerCard.
 	self assert: (game stateOf: nico) positionInGame squareNumber equals: 1.
 	self assert: (game stateOf: nico) positionInGame laps equals: 0.

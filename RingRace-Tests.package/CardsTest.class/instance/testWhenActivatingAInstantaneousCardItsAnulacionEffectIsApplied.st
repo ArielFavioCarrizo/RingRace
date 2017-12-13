@@ -11,7 +11,7 @@ testWhenActivatingAInstantaneousCardItsAnulacionEffectIsApplied
 		withDices: {(Dice withNumbersFrom: (ReadStream on: #(2 2 2 2 2 2 2)))}
 		winningWhen: (ReachedNumberOfLaps reaching: 2).
 	velocidadCard := PermanentCardBasedInEffectPerDiceThrow withEffect: VelocidadEffect new.
-	anulacionCard := InstantaneousCard withEffect: AnulacionEffect new.
+	anulacionCard := AnulacionCard new.
 	nico give: velocidadCard.
 	santi give: anulacionCard .
 	self assert: (game stateOf: nico) positionInGame squareNumber equals: 1.
@@ -29,7 +29,7 @@ testWhenActivatingAInstantaneousCardItsAnulacionEffectIsApplied
 	self assert: (game stateOf: nico) positionInGame laps equals: 0.
 	self assert: (game stateOf: santi) positionInGame squareNumber equals: 3.
 	self assert: (game stateOf: santi) positionInGame laps equals: 0.
-	santi activate: anulacionCard  in: game.
+	santi activate: anulacionCard  in: game withCardToRemove: velocidadCard.
 	game throwDicesFor: nico.
 	self assert: (game stateOf: nico) positionInGame squareNumber equals: 6.
 	self assert: (game stateOf: nico) positionInGame laps equals: 0.

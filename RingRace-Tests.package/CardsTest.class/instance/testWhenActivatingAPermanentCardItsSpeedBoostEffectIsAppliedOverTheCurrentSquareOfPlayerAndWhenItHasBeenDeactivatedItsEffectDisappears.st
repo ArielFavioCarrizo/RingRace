@@ -12,7 +12,7 @@ testWhenActivatingAPermanentCardItsSpeedBoostEffectIsAppliedOverTheCurrentSquare
 		withDices: {(Dice withNumbersFrom: (ReadStream on: #(1 1 5 2 14 2 6)))}
 		winningWhen: (ReachedNumberOfLaps reaching: 2).
 	speedBoostCard := SpeedBoostPermanentCard new.
-	anulacionCard := InstantaneousCard withEffect: AnulacionEffect new.
+	anulacionCard := AnulacionCard new.
 	nico give: speedBoostCard.
 	santi give: anulacionCard.
 	self assert: (game stateOf: nico) positionInGame squareNumber equals: 1.
@@ -51,7 +51,7 @@ testWhenActivatingAPermanentCardItsSpeedBoostEffectIsAppliedOverTheCurrentSquare
 	self assert: (game stateOf: santi) positionInGame squareNumber equals: 4.
 	self assert: (game stateOf: santi) positionInGame laps equals: 0.
 	
-	santi activate: anulacionCard in: game.
+	santi activate: anulacionCard in: game withCardToRemove: speedBoostCard.
 	
 	game throwDicesFor: santi.
 	self assert: (game stateOf: nico) positionInGame squareNumber equals: 11.
